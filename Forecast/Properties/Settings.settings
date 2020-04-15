@@ -1,7 +1,20 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Forecast.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=|DataDirectory|\DB\Indicators.sdf&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=|DataDirectory|\DB\Indicators.sdf</Value>
+    </Setting>
+    <Setting Name="OTS_days" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekdays/?input_parameters={"access_token": "911b55e6-5d44-4e71-8566-d3ed41dd1aa4","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
+    </Setting>
+    <Setting Name="OTS_holi" Type="(Web Service URL)" Scope="User">
+      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekends/?input_parameters={"access_token": "911b55e6-5d44-4e71-8566-d3ed41dd1aa4","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
