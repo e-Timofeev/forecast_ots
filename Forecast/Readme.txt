@@ -1,2 +1,2 @@
-При ошибках, связанных с SQL Compact, установить SSCERuntime-RUS.exe.
+РџСЂРё РѕС€РёР±РєР°С…, СЃРІСЏР·Р°РЅРЅС‹С… СЃ SQL Compact, СѓСЃС‚Р°РЅРѕРІРёС‚СЊ SSCERuntime-RUS.exe.
 https://www.microsoft.com/ru-ru/download/details.aspx?id=30709
