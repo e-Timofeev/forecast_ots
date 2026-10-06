@@ -1,15 +1,15 @@
-# Security Policy
+# Политика безопасности
 
-## Supported versions
+## Поддерживаемые версии
 
-This is a historical repository and is not actively maintained. There are **no currently supported production versions**.
+Это исторический репозиторий, который больше не находится в активной разработке. **Поддерживаемых production-версий нет.**
 
-## Legacy credentials
+## Старые учетные данные
 
-The API credential visible in older Git history was a temporary research token. It expired / was revoked in **2020** and is no longer valid or used.
+API-токен, присутствующий в старой истории Git, был временным исследовательским токеном. Он **истек / был отозван в 2020 году**, больше невалиден и нигде не используется.
 
-The current branch contains only an explicit placeholder.
+В текущей ветке оставлена только явная заглушка вместо рабочего значения.
 
-## Reporting
+## Сообщения о проблемах
 
-There is no active production deployment of this application. Security findings may still be useful as historical code-review information, but fixes are not guaranteed unless they affect the integrity of the repository itself.
+Действующего production-развертывания этого приложения нет. Найденные проблемы безопасности могут быть полезны для исторического анализа кода, но исправления не гарантируются, если проблема не влияет на целостность самого репозитория.
