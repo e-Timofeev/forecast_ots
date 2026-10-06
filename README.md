@@ -1,55 +1,55 @@
 # Forecast OTS
 
-Historical desktop application for forecasting the OTS audience metric using ETS.
+Историческое настольное приложение для прогнозирования показателя аудитории OTS с использованием ETS.
 
-## Status
+## Статус проекта
 
-**Historical / no longer actively maintained.**
+**Исторический проект, активная поддержка прекращена.**
 
-- Original development: **2020**
-- Repository cleanup: **2026-10-06**
-- The codebase is preserved as a record of the original implementation and technology stack.
-- There is no current production deployment or supported runtime environment.
+- Основная разработка: **2020 год**
+- Техническая очистка репозитория: **06.10.2026**
+- Код сохранен как история исходной реализации и использованного технологического стека.
+- Действующего production-развертывания и поддерживаемой среды выполнения нет.
 
-## What the application did
+## Что делало приложение
 
-The WinForms application combined several operations:
+WinForms-приложение объединяло несколько операций:
 
-- loading OTS data from Excel;
-- storing and reading observations in SQL Server Compact;
-- receiving OTS data from an external analytics API;
-- forecasting time series with Excel `FORECAST.ETS`;
-- displaying actual and forecast values in charts.
+- загрузка данных OTS из Excel;
+- хранение и чтение наблюдений в SQL Server Compact;
+- получение данных OTS из внешнего аналитического API;
+- прогнозирование временных рядов через Excel `FORECAST.ETS`;
+- отображение фактических и прогнозных значений на графиках.
 
-## Original technology stack
+## Исходный технологический стек
 
 - C# / Windows Forms
 - .NET Framework 4.5
 - SQL Server Compact 4.0
 - Microsoft Office / Excel Interop
 - Newtonsoft.Json
-- Visual Studio 2017-era project format
+- формат проекта эпохи Visual Studio 2017
 
-The project intentionally retains its original legacy stack. It is not being migrated to modern .NET.
+Проект намеренно сохраняет исходный legacy-стек и не переводится на современный .NET.
 
-## Legacy API credentials
+## Старый API-токен
 
-The original configuration contained a temporary research access token used during the project period.
+В исходной конфигурации использовался временный исследовательский access token, выданный на период проекта.
 
-That token **expired / was revoked in 2020**, is no longer valid, and is not used by any current system. The live value has been removed from the current branch and replaced with an explicit placeholder. Historical commits are retained as part of the project history.
+Этот токен **истек / был отозван в 2020 году**, больше невалиден и нигде не используется. В текущей ветке его значение удалено и заменено явной заглушкой. Старые коммиты сохранены как часть истории проекта.
 
-The external API endpoints are also legacy project dependencies and are not guaranteed to exist today.
+Внешние API-адреса также относятся к старой инфраструктуре проекта и сегодня могут быть недоступны.
 
-## Dependency note
+## Обновление зависимости
 
-On **2026-10-06**, Newtonsoft.Json was updated from `12.0.3` to `13.0.2` to resolve the historical Dependabot security alert. The project file reference was synchronized with the NuGet package version.
+**06.10.2026** библиотека Newtonsoft.Json была обновлена с `12.0.3` до `13.0.2`, чтобы закрыть историческое предупреждение Dependabot. Ссылка на библиотеку в файле проекта также синхронизирована с новой версией NuGet-пакета.
 
-## Build note
+## Сборка
 
-A clean cloud build is **not guaranteed**. The original application depended on Windows-specific and locally installed components, including Excel Interop, SQL Server Compact, signing material and other legacy references.
+Чистая сборка в облачной среде **не гарантируется**. Исходное приложение зависело от Windows-компонентов и локально установленных библиотек, включая Excel Interop, SQL Server Compact, материалы для подписи и другие legacy-зависимости.
 
-This repository is therefore intended primarily as a historical source-code artifact, not as a currently supported build.
+Поэтому репозиторий следует рассматривать прежде всего как исторический артефакт исходного кода, а не как поддерживаемый build-ready проект.
 
-## Legacy runtime note
+## Примечание по старой среде
 
-For the original environment, SQL Server Compact runtime installation may be required. See `Forecast/Readme.txt`.
+Для исходной среды мог требоваться SQL Server Compact Runtime. См. `Forecast/Readme.txt`.
