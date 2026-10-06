@@ -36,7 +36,7 @@ namespace Forecast.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekdays/?input_parameters={""access_token"": ""911b55e6-5d44-4e71-8566-d3ed41dd1aa4"",""outdoor_ad_space_ids"":[132430],""main_date_range"":[""startDate"",""endDate""],""region_id"": 4}")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekdays/?input_parameters={""access_token"": ""EXPIRED_REVOKED_RESEARCH_TOKEN"",""outdoor_ad_space_ids"":[132430],""main_date_range"":[""startDate"",""endDate""],""region_id"": 4}")]
         public string OTS_days {
             get {
                 return ((string)(this["OTS_days"]));
@@ -49,7 +49,7 @@ namespace Forecast.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekends/?input_parameters={""access_token"": ""911b55e6-5d44-4e71-8566-d3ed41dd1aa4"",""outdoor_ad_space_ids"":[132430],""main_date_range"":[""startDate"",""endDate""],""region_id"": 4}")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekends/?input_parameters={""access_token"": ""EXPIRED_REVOKED_RESEARCH_TOKEN"",""outdoor_ad_space_ids"":[132430],""main_date_range"":[""startDate"",""endDate""],""region_id"": 4}")]
         public string OTS_holi {
             get {
                 return ((string)(this["OTS_holi"]));

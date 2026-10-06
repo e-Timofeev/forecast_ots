@@ -11,10 +11,10 @@
       <Value Profile="(Default)">Data Source=|DataDirectory|\DB\Indicators.sdf</Value>
     </Setting>
     <Setting Name="OTS_days" Type="(Web Service URL)" Scope="User">
-      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekdays/?input_parameters={"access_token": "911b55e6-5d44-4e71-8566-d3ed41dd1aa4","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
+      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekdays/?input_parameters={"access_token": "EXPIRED_REVOKED_RESEARCH_TOKEN","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
     </Setting>
     <Setting Name="OTS_holi" Type="(Web Service URL)" Scope="User">
-      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekends/?input_parameters={"access_token": "911b55e6-5d44-4e71-8566-d3ed41dd1aa4","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
+      <Value Profile="(Default)">https://analytics-service.client.getshopster.net/report_api/query_report/dev/outdoor_ad_spaces_ots_distibution_hours_of_day_weekends/?input_parameters={"access_token": "EXPIRED_REVOKED_RESEARCH_TOKEN","outdoor_ad_space_ids":[132430],"main_date_range":["startDate","endDate"],"region_id": 4}</Value>
     </Setting>
   </Settings>
 </SettingsFile>
